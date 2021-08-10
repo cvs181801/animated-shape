@@ -1,0 +1,20 @@
+:root {
+    --ff-main: 'Raleway Dots', sans-serif;
+    --ff-accent: 'Palette Mosaic', cursive;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff-accent);
+    margin: 0 auto;
+}
+
+.background__div {
+    background: url("/Users/casvalkyriespicer/Documents/GitHub/animated-shape/pics/retro-paper.jpeg");
+    object-fit: cover;
+}
