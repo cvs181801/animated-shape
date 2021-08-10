@@ -34,52 +34,54 @@ body {
 }
 
 .cube__container {
-    width: 5em;
-    height: 5em;
+    width: 40px;
+    height: 40px;
     position: relative;
     transform-style: preserve-3d;
-    transform: translateZ(-100px);
+    transform: translateZ(-20px);
     transition: transform 1s;
 }
 
 .cube__face {
     position: absolute;
-    width: 4em;
-    height: 4em;
+    width: 40px;
+    height: 40px;
     top: 10em;
     left: 15em;
+    border: 1px solid white;
+
   }
 
 .cube__face__1  { 
     background: var(--pink); 
     opacity: 0.75;  
-    transform: rotateY(0deg) translateZ(100px); 
+    transform: rotateY(0deg) translateZ(20px); 
 }
 
 .cube__face__2 {  
     background: var(--pink);   
     opacity: 0.75; 
-    transform: rotateY(180deg) translateZ(100px);
+    transform: rotateY(180deg) translateZ(20px);
 }
 
 .cube__face__3  { 
     background: var(--pink);    
     opacity: 0.75; 
-    transform: rotateY( 90deg) translateZ(100px); 
+    transform: rotateY( 90deg) translateZ(20px); 
 }
 
 .cube__face__4  {  
     background: var(--pink);    
     opacity: 0.75; 
-    transform: rotateY(-90deg) translateZ(100px); 
+    transform: rotateY(-90deg) translateZ(20px); 
 }
 .cube__face__5   {  
     background: var(--pink);    
     opacity: 0.75; 
-    transform: rotateX( 90deg) translateZ(100px);
+    transform: rotateX( 90deg) translateZ(20px);
 }
 .cube__face__6 {  
     background: var(--pink);   
     opacity: 0.75; 
-    transform: rotateX(-90deg) translateZ(100px); 
+    transform: rotateX(-90deg) translateZ(20px); 
 } 
