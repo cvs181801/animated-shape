@@ -1,6 +1,8 @@
 :root {
     --ff-main: 'Raleway Dots', sans-serif;
     --ff-accent: 'Palette Mosaic', cursive;
+    --pink: rgb(253, 78, 230);
+    
 }
 
 * {
@@ -15,6 +17,13 @@ body {
 }
 
 .background__div {
-    background: url("/Users/casvalkyriespicer/Documents/GitHub/animated-shape/pics/retro-paper.jpeg");
-    object-fit: cover;
+    background-image: url("/Users/casvalkyriespicer/Documents/GitHub/animated-shape/pics/retro-paper.jpeg");
+    background-color: rgb(9, 207, 241);
+    /*background-blend-mode: multiply;*/
+    opacity: .8;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-blend-mode: screen;
+    background-position: 50% 10%;
 }
