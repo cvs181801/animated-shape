@@ -32,6 +32,21 @@ body {
     perspective: 600px;
 }
 
+.cube__container {
+    width: 5em;
+    height: 5em;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateZ(-100px);
+    transition: transform 1s;
+}
+
+.cube__face {
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+  }
+
 .cube__face__1  { 
     background: var(--pink);  
     opacity: 0.75;
