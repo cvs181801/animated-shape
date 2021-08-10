@@ -27,3 +27,41 @@ body {
     background-blend-mode: screen;
     background-position: 50% 10%;
 }
+
+.cube__container {
+    perspective: 600px;
+}
+
+.cube__face__1  { 
+    background: var(--pink);  
+    opacity: 0.75;
+    transform: rotateY(0deg) translateZ(100px); 
+}
+
+/*.cube__face__2 {  
+    background: var(--pink);   
+    opacity: 0.75; 
+    transform: rotateY(180deg) translateZ(100px);
+}
+
+.cube__face__3  { 
+    background: var(--pink);    
+    opacity: 0.75; 
+    transform: rotateY( 90deg) translateZ(100px); 
+}
+
+.cube__face__4  {  
+    background: var(--pink);    
+    opacity: 0.75; 
+    transform: rotateY(-90deg) translateZ(100px); 
+}
+.cube__face__5   {  
+    background: var(--pink);    
+    opacity: 0.75; 
+    transform: rotateX( 90deg) translateZ(100px);
+}
+.cube__face__6 {  
+    background: var(--pink);   
+    opacity: 0.75; 
+    transform: rotateX(-90deg) translateZ(100px); 
+} */
