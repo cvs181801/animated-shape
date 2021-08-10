@@ -1,7 +1,7 @@
 :root {
     --ff-main: 'Raleway Dots', sans-serif;
     --ff-accent: 'Palette Mosaic', cursive;
-    --pink: rgb(253, 78, 230);
+    --pink: rgb(250, 2, 217);
     
 }
 
@@ -14,6 +14,7 @@
 body {
     font-family: var(--ff-accent);
     margin: 0 auto;
+    
 }
 
 .background__div {
@@ -43,17 +44,19 @@ body {
 
 .cube__face {
     position: absolute;
-    width: 1.5em;
-    height: 1.5em;
+    width: 4em;
+    height: 4em;
+    top: 10em;
+    left: 15em;
   }
 
 .cube__face__1  { 
-    background: var(--pink);  
-    opacity: 0.75;
+    background: var(--pink); 
+    opacity: 0.75;  
     transform: rotateY(0deg) translateZ(100px); 
 }
 
-/*.cube__face__2 {  
+.cube__face__2 {  
     background: var(--pink);   
     opacity: 0.75; 
     transform: rotateY(180deg) translateZ(100px);
@@ -79,4 +82,4 @@ body {
     background: var(--pink);   
     opacity: 0.75; 
     transform: rotateX(-90deg) translateZ(100px); 
-} */
+} 
