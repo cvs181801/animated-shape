@@ -85,3 +85,22 @@ body {
     opacity: 0.75; 
     transform: rotateX(-90deg) translateZ(20px); 
 } 
+
+.cube__container.show__1  {
+    transform: translateZ(-100px) rotateY(0deg); 
+   }
+.cube__container.show__2  { 
+   transform: translateZ(-100px) rotateY(-180deg); 
+}
+.cube__container.show__3  { 
+   transform: translateZ(-100px) rotateY(-90deg); 
+}
+.cube__container.show__4   { 
+   transform: translateZ(-100px) rotateY(90deg); 
+}
+.cube__container.show__5   { 
+   transform: translateZ(-100px) rotateX(-90deg); 
+}
+.cube__container.show__6 { 
+   transform: translateZ(-100px) rotateX(90deg); 
+}
