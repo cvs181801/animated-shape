@@ -3,7 +3,7 @@
     --ff-accent: 'Palette Mosaic', cursive;
     --pink: rgb(250, 2, 217);
     --purple: rgb(78, 3, 78);
-
+    --orange: rgb(252, 101, 0);
 }
 
 * {
@@ -39,9 +39,10 @@ body {
     justify-content: center;
     align-content: center;
     margin: 0 auto;
-    border: 2px solid green;
     height: 1000px;
     width: 1000px;
+    border: 2px dotted var(--orange);
+    border-radius: 20% 40% 19% 33%;
 }
 
 .cube__container {
@@ -143,4 +144,15 @@ a {
     color: var(--purple);
     text-decoration: 2px dotted var(--purple);
     opacity: .7;
+}
+
+@media (max-width: 700px) {
+    .outer__container {
+        height: 800px;
+        width: 500px;
+    }
+
+    .cube__container {
+        margin-top: 100px;
+    }
 }
