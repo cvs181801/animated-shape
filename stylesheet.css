@@ -2,7 +2,7 @@
     --ff-main: 'Raleway Dots', sans-serif;
     --ff-accent: 'Palette Mosaic', cursive;
     --pink: rgb(250, 2, 217);
-    
+    --purple: rgb(78, 3, 78);
 }
 
 * {
@@ -16,6 +16,7 @@ body {
     margin: 0 auto;
     justify-content: center;
     align-content: center;
+    perspective: 900px;
 }
 
 .background__div {
@@ -43,30 +44,28 @@ body {
 }
 
 .cube__container {
-    margin-top: 10em;
-    perspective: 900px;
     justify-content: center;
     align-content: center;
     margin: 0 auto;
-    border: 2px solid purple;
-}
-
-.cube__container {
-    width: 40px;
-    height: 40px;
+    border: 2px dotted rgb(78, 3, 78);
+    border-radius: 50%;
+    margin-top: 300px;
+    width: 400px;
+    height: 400px;
     position: relative; 
     transform-style: preserve-3d;
     transform: translateZ(-20px);
     transition: transform 1s;
 }
 
+
 .cube__face {
     position: absolute;
     width: 40px;
     height: 40px;
-    top: 10em;
-    left: 15em;
-    border: 1px solid white;
+    top: 44%;
+    left: 44%;
+    border: 1px solid var(--purple);
 
   }
 
