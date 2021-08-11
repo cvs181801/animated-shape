@@ -14,7 +14,8 @@
 body {
     font-family: var(--ff-accent);
     margin: 0 auto;
-    
+    justify-content: center;
+    align-content: center;
 }
 
 .background__div {
@@ -27,22 +28,32 @@ body {
     background-size: cover;
     background-blend-mode: screen;
     background-position: 50% 10%;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
 }
 
 .outer__container {
-    position: absolute;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    border: 2px solid green;
 }
 
 .cube__container {
     perspective: 600px;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    border: 2px solid purple;
 }
 
 .cube__container {
     width: 40px;
     height: 40px;
-    position: relative;
-    top: 15em;
-    left: 15em;
+    position: absolute;
+    
     transform-style: preserve-3d;
     transform: translateZ(-20px);
     transition: transform 1s;

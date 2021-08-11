@@ -24,7 +24,7 @@ function rotate() {
     currentClass = showClass;
 }
 
-console.log(rotate());
+
 // let currentClass="";
 
 // function rollDice() {
@@ -41,20 +41,21 @@ console.log(rotate());
 
 // console.log(rollDice());
 
-document.addEventListener('mousemove', function(e) {
+document.addEventListener('mouseover', function(e) {
     e.preventDefault();
-    const x = e.pageX;
-    const y = e.pageY;
-    console.log(x);
-    console.log(y);
-    const midY = y - window.innerHeight / 2;
-    const midX = x - window.innerWidth / 2;
-    console.log(midY);
-    console.log(window.innerHeight);
-    console.log(window.innerWidth);
-    cube.style.left = x + "px";
-    cube.style.top = y + "px";
-    //return rotate();
-    cube.style.transform = "rotateX(" + (midY * 0.5) + "deg) rotateY(" + midX + "deg)";
+    //const x = e.pageX;
+    //const y = e.pageY;
+    //console.log(x);
+    //console.log(y);
+    //const midY = y - window.innerHeight / 2;
+    //const midX = x - window.innerWidth / 2;
+    //console.log(midY);
+    //console.log(window.innerHeight);
+    //console.log(window.innerWidth);
+    //cube.style.left = x + "px";
+    //cube.style.top = y + "px";
+    return rotate();
+    //cube.style.transform = "rotateX(" + (midY * 0.5) + "deg) rotateY(" + midX + "deg)";
+
     
 })
