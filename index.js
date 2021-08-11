@@ -45,12 +45,13 @@ document.addEventListener('mousemove', function(e) {
     e.preventDefault();
     const x = e.pageX;
     const y = e.pageY;
-   // console.log(x);
-    //console.log(y);
+    console.log(x);
+    console.log(y);
     const midY = y - window.innerHeight / 2;
     const midX = x - window.innerWidth / 2;
-    //console.log(midY);
-    //console.log(window.innerHeight);
+    console.log(midY);
+    console.log(window.innerHeight);
+    console.log(window.innerWidth);
     cube.style.left = x + "px";
     cube.style.top = y + "px";
     //return rotate();
