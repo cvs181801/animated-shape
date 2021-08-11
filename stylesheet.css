@@ -3,6 +3,7 @@
     --ff-accent: 'Palette Mosaic', cursive;
     --pink: rgb(250, 2, 217);
     --purple: rgb(78, 3, 78);
+
 }
 
 * {
@@ -44,6 +45,7 @@ body {
 }
 
 .cube__container {
+    
     justify-content: center;
     align-content: center;
     margin: 0 auto;
@@ -56,6 +58,15 @@ body {
     transform-style: preserve-3d;
     transform: translateZ(-20px);
     transition: transform 1s;
+}
+
+.hero__txt {
+    color: var(--purple);
+    font-family: var(--ff-main);
+    letter-spacing: .2rem;
+    padding: .3em;
+    line-height: 2rem;
+    font-weight: 700;
 }
 
 
@@ -120,4 +131,16 @@ body {
 }
 .cube__container.show__6 { 
    transform: translateZ(-100px) rotateX(90deg); 
+}
+
+p {
+    color: var(--purple);
+    opacity: .7;
+    font-family: var(--ff-main);
+}
+
+a {
+    color: var(--purple);
+    text-decoration: 2px dotted var(--purple);
+    opacity: .7;
 }
