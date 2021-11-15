@@ -21,7 +21,7 @@ body {
 }
 
 .background__div {
-    background-image: url("/Users/casvalkyriespicer/Documents/GitHub/animated-shape/pics/retro-paper.jpeg");
+    background-image: url("./pics/retro-paper.jpeg");
     background-color: rgb(9, 207, 241);
     opacity: .8;
     width: 100%;
